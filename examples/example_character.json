@@ -1,0 +1,26 @@
+{
+  "acics_version": "1.0",
+  "acin": "ACIN-2025-0001-A9F3",
+  "character_name": "Yeongho",
+  "character_type": "AI-generated fictional character",
+  "initial_registration_date": "2025-09-18",
+  "creator": {
+    "name": "Joseunghyeon",
+    "role": "Concept author and registrant"
+  },
+  "identity_persistence": {
+    "transferable": false,
+    "revocable": false,
+    "platform_dependent": false
+  },
+  "reference_material": {
+    "description": "Photorealistic AI-assisted character portrait",
+    "medium": "Digital image",
+    "notes": "Visual reference used solely for identity anchoring"
+  },
+  "ethical_constraints": {
+    "legal_personhood_claimed": false,
+    "ownership_claimed_by_system": false
+  },
+  "notes": "This file serves as an illustrative example of ACICS identity registration and does not represent a legally binding certificate."
+}
