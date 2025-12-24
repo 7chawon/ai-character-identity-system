@@ -1,4 +1,26 @@
-Define DCIN issuance rules and character identity specifications
-Adds a detailed specification for Digital Character Identity Numbers (DCIN),
-including structure, issuance criteria, lifecycle rules,
-and ethical constraints.
+A. PROTECTION_NOTICE.md (템플릿)
+
+[Authorship & Prior Art Notice]
+본 저장소의 “AI Character Identity Certification System (ACICS)” 및 “Digital Character Identity Number (DCIN)” 개념, 용어 정의, 번호 포맷, 발급 규칙, 검증 절차, 캐릭터 매니페스트(Identity Manifest) 구조는 작성자에 의해 최초 제안/정리된 저작물(문서/명세)입니다.
+본 문서는 공개 게시 시점의 커밋 기록과 함께 개념의 선행 공개(아이디어의 공개 기록) 및 저작물 성립 시점을 남기기 위한 목적을 포함합니다.
+
+[No License / Restricted Use]
+별도의 명시적 라이선스 부여가 없는 한, 본 저장소의 문서/명세/도표/코드의 전부 또는 일부를 복제, 2차 저작물 작성, 상업적 이용, 재배포하는 행위는 허용되지 않습니다.
+(협업/인용/사용 문의: 작성자에게 사전 서면 동의 요청)
+
+[Attribution Requirement]
+학술적 인용 또는 비상업적 참고가 필요할 경우, 저장소 URL과 특정 커밋 해시를 포함한 출처 표기를 요구합니다.
+
+[Idea vs. Expression]
+아이디어 자체는 법적으로 보호 범위가 제한될 수 있으나, 본 저장소는 아이디어를 “표현(명세/문서/코드)” 형태로 고정하고, 공개 시점을 커밋으로 증거화합니다.
+
+B. AI 활용 관련 안전 문장(너가 요청한 “문장만” 따로)
+
+[AI 활용 고지]
+본 시스템의 예시 캐릭터 이미지/설명은 생성형 AI 또는 AI 보조 도구를 활용해 제작될 수 있으나, 등록/발급 대상은 자동 생성 결과물 그 자체가 아니라 신청자가 선택·편집·구성·수정·검증한 최종 산출물 및 해당 산출물의 식별 규칙(명세/표현)입니다.
+
+[권리 침해 방지]
+본 저장소는 실존 인물의 얼굴, 특정 창작물(IP), 상표, 초상권을 침해하지 않는 범위에서 캐릭터 정체성을 다루며, 외부 권리 침해 소지가 있는 입력 데이터의 사용을 금지합니다.
+
+[오남용 금지]
+DCIN/ACICS는 “사람의 신분을 대체”하거나 “공적 신원 인증”을 표방하지 않으며, 사칭·기망·불법 식별을 위한 사용을 금지합니다.
