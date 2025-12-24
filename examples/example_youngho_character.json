@@ -1,0 +1,102 @@
+{
+  "schema": "ACICS-CHARACTER-PROFILE-1.0",
+  "record_type": "character_profile",
+  "issued_at": "2025-12-24T00:00:00+09:00",
+
+  "character": {
+    "display_name": "9번방의 이영호",
+    "universe": "19번방",
+    "role_tags": ["main-character", "mv-recurring", "worldbuilding-original"],
+    "short_pitch": "19번방 세계관의 핵심 인물. 음악/뮤비에 반복 등장하는 고정 캐릭터로, 일관된 얼굴 인상과 분위기(차분함/중성적 소년미)를 유지한다."
+  },
+
+  "issuer": {
+    "issuer_name": "JOSEUNGHYEON",
+    "issuer_type": "creator",
+    "contact": "your_email@example.com"
+  },
+
+  "dcin": {
+    "id": "ACICS-KR-2025-000001-7Q2M",
+    "format": "ACICS-{COUNTRY}-{YEAR}-{SEQUENCE}-{CHECK}",
+    "country": "KR",
+    "year": 2025,
+    "sequence": 1,
+    "check": "7Q2M",
+    "status": "active"
+  },
+
+  "issuance_rules": {
+    "purpose": "AI/디지털 캐릭터의 지속적 동일성(continuity)을 증명하기 위한 인증번호 부여",
+    "eligibility": [
+      "신청자가 원저작자(또는 정당한 권리자)임을 주장할 수 있어야 함",
+      "캐릭터를 식별 가능한 수준으로 특정할 수 있어야 함(핵심 특징 + 참조 증거)"
+    ],
+    "id_policy": {
+      "one_id_per_character": true,
+      "versioning": "same DCIN 유지 + profile_version 증가",
+      "revocation": "권리 분쟁/허위 신청 등 사유 발생 시 상태를 revoked로 변경"
+    }
+  },
+
+  "identity_fingerprint": {
+    "visual_core": {
+      "notes": [
+        "검은 머리(앞머리 가르마/시스루 느낌), 깨끗한 피부 톤, 또렷한 큰 눈, 중성적이고 차분한 분위기",
+        "정면 기준 얼굴 비율을 안정적으로 유지(과도한 V라인/과장된 광대 금지)",
+        "배경은 중립 톤(화이트/그레이) 기반으로 인물 식별이 우선"
+      ]
+    },
+    "reference_assets": [
+      {
+        "asset_type": "portrait_front",
+        "file_name": "yeongho_front.png",
+        "hash_alg": "SHA-256",
+        "hash": "REPLACE_WITH_SHA256_HASH"
+      },
+      {
+        "asset_type": "portrait_left",
+        "file_name": "yeongho_left.png",
+        "hash_alg": "SHA-256",
+        "hash": "REPLACE_WITH_SHA256_HASH"
+      },
+      {
+        "asset_type": "portrait_right",
+        "file_name": "yeongho_right.png",
+        "hash_alg": "SHA-256",
+        "hash": "REPLACE_WITH_SHA256_HASH"
+      }
+    ]
+  },
+
+  "ai_use_disclosure": {
+    "statement": "본 캐릭터 초상은 신청자의 원본 드로잉/디자인을 기반으로 생성형 AI 도구를 보조적으로 활용하여 제작되었으며, 최종 결과물의 창작적 선택(디자인 결정, 선택/보정, 표현 방향)은 신청자에 의해 수행되었다.",
+    "tools": [
+      {
+        "tool_name": "GENERATIVE_AI_TOOL",
+        "role": "reference/assist",
+        "notes": "실사화 스타일 가이드를 얻기 위한 보조 생성에 활용"
+      }
+    ],
+    "human_authorship": [
+      "원본 캐릭터 디자인(얼굴 특징/비율/헤어) 설정",
+      "실사화 결과 중 채택본 선택",
+      "후처리/보정 및 최종 제출본 구성"
+    ]
+  },
+
+  "legal_notice": {
+    "ownership_claim": "본 레코드 및 첨부 자산은 신청자에게 귀속됨",
+    "no_license_granted": "본 문서는 제3자에 대한 사용허락을 의미하지 않음",
+    "anti_misappropriation": "본 시스템 제안(ACICS/DCIN) 및 문서 구조를 무단 전재/도용하여 상업적 등록·서비스에 사용하는 행위를 금지함"
+  },
+
+  "integrity": {
+    "manifest_hash_alg": "SHA-256",
+    "manifest_hash": "REPLACE_WITH_SHA256_OF_THIS_JSON",
+    "signature": {
+      "sig_type": "GPG_OR_SIGSTORE_OPTIONAL",
+      "sig_value": "OPTIONAL_SIGNATURE_VALUE"
+    }
+  }
+}
